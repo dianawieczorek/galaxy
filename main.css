@@ -1,0 +1,55 @@
+body {
+  background: black url(assets/bg.png); }
+
+header {
+  margin-bottom: 30px;
+  padding-top: 15px; }
+
+.container {
+	padding-top: 30px
+}
+
+.carousel {
+	width:7300;
+	padding: 0;
+	position: relative;
+	left: 0;
+}
+
+.single-slide {
+	display: inline-block;
+	width: 800px;
+	text-align: center;
+}
+
+.single-slide img {
+	width: 300px;
+}
+
+.carousel-stage {
+	width: 800px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.carousel-nav-item {
+	color: #fff;
+	font-size: 30px;
+}
+
+.carousel-nav {
+	text-align: center;
+	top: 50%;
+	position:absolute;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+.carousel-prev {
+	float: left;
+}
+.carousel-next {
+	 float: right;
+}
